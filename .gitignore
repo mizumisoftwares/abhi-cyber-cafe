@@ -1,1 +1,16 @@
 node_modules
+public
+src
+components.json
+sdlint.config.js
+index.html
+info.md
+package-lock.json
+packhage.json
+postcss.config.js
+README.md
+tailwind.config.js
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
