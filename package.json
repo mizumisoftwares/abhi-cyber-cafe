@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "http://mizumisoftwares.github.io/abhi-cyber-cafe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build -d dist",
+    "deploy": "gh-pages deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -43,6 +46,7 @@
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.34.0",
+    "gh-pages": "^6.3.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.562.0",
     "next-themes": "^0.4.6",
