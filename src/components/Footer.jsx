@@ -155,7 +155,7 @@ const Footer = () => {
               © 2025 Abhi Cyber Cafe. All Rights Reserved.
             </p>
             <p className="text-gray-500 text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Abhishek Yadav
+              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by <a href="https://mizumisoft.tech/">MizumiSoft</a> and Abhishek Yadav
             </p>
           </div>
         </motion.div>
